@@ -16,16 +16,17 @@ app.use(express.static(pagePath));
 app.get("/",(req,res) => {
     res.render('index')
 })
-app.get("/about", (req,res)=> {
-    res.render("about");
+app.get("/artist", (req,res)=> {
+    res.render("artist");
 })
-app.get("/weather", (req,res)=> {
-    res.render("weather");
+app.get("/genre", (req,res)=> {
+    res.render("genre");
+})
+app.get("profile", (req,res)=>{
+    res.render("profile")
 })
 app.get("*", (req,res)=>{
-    res.render("error",{
-        errorMsg: "Page Not Found"
-    });
+    res.send("PAGE NOT FOUND")
 })
 
 
