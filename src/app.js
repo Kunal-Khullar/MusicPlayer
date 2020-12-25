@@ -22,7 +22,7 @@ app.get("/artist", (req,res)=> {
 app.get("/genre", (req,res)=> {
     res.render("genre");
 })
-app.get("profile", (req,res)=>{
+app.get("/profile", (req,res)=>{
     res.render("profile")
 })
 app.get("*", (req,res)=>{

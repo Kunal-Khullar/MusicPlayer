@@ -10,5 +10,56 @@ body{
     overflow-x: hidden;
     height: 100vh;
     display: flex;
+    color: #3BBA9C !important;
     flex-direction: column;
+    background: #43455C !important;
+}
+.fa-compact-disc
+{
+    transition: all linear;
+    animation: rot 2s linear infinite;
+    color: var(--main-color);
+}
+@keyframes rot{
+    0%{
+        transform: rotate(0deg)
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+.navbar
+{
+    background: #2E3047;
+}
+.nav-link,.navbar-brand
+{
+    color: #3BBA9C;
+    font-size: 1.2rem;
+    
+}
+.nav-link:hover,.navbar-brand:hover
+{
+    color: #707793;
+}
+.col-md-12
+{
+    padding: 0 !important;
+}
+.entry1
+{
+
+    margin-top: 4%;
+}
+.fukri1
+{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-top: 2%;
+}
+.level1
+{
+    padding: 0% 0.3%;
+    font-size: 3rem;
 }
