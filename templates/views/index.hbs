@@ -2,15 +2,184 @@
 <html lang="en">
 {{>header}}
 <body>
-    {{>navbar}} 
-    <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                       
-                         </div>                   
+    <div id="wrapper">
+   
+    
+        <!-- Sidebar -->
+    <nav class="navbar navbar-inverse fixed-top" id="sidebar-wrapper" role="navigation">
+     <ul class="nav sidebar-nav">
+       <div class="sidebar-header">
+       <div class="sidebar-brand">
+         <a href="#"><i class="fa fa-compact-disc"></i>Serene<i class="fa fa-compact-disc"></i></a></div></div>
+       <li><a href="#">Home</a></li>
+       <li><a href="/artist">Artists</a></li>
+       <li><a href="/genre">Genres</a></li>
+       <li><a href="/profile">Profile</a></li>
+     
+      </ul>
+  </nav>
+        <!-- /#sidebar-wrapper -->
+
+        <!-- Page Content -->
+        <div id="page-content-wrapper">
+            <button type="button" class="hamburger animated fadeInLeft is-closed" data-toggle="offcanvas">
+                <span class="hamb-top"></span>
+          <span class="hamb-middle"></span>
+        <span class="hamb-bottom"></span>
+            </button>
+          
+     
+                 <div  id="opdiv" >
+                   <div class="row">
+                    <div class="col-lg-11">
+                      <div class="topcharts">
+                            <h2 class="top">Top Charts</h2>
+                            <div id="noflex" class="row">
+                              <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <div class="flexing">
+                                                         <div class="chart1">
+                                                           <div class="chartrow">
+                                                             <div class="row"><h5 class="chartname">Chart Name</h5>
+                                                           <i class="fas fa-play-circle"></i></div>
+                                                           </div>
+                                                           </div>
+                                                  <div class="chart1">   <div class="chartrow">
+                                                             <div class="row"><h5 class="chartname">Chart Name</h5>
+                                                           <i class="fas fa-play-circle"></i></div>
+                                                           </div></div>
+                                                  <div class="chart1"> <div class="chartrow">
+                                                             <div class="row"><h5 class="chartname">Chart Name</h5>
+                                                           <i class="fas fa-play-circle"></i></div>
+                                                           </div> </div> 
+                                           </div>
+    </div>
+    <div class="carousel-item">
+     <div class="flexing">
+                                                         <div class="chart1">  <div class="chartrow">
+                                                             <div class="row"><h5 class="chartname">Chart Name</h5>
+                                                           <i class="fas fa-play-circle"></i></div>
+                                                           </div> </div> 
+                                                   <div class="chart1">  <div class="chartrow">
+                                                             <div class="row"><h5 class="chartname">Chart Name</h5>
+                                                           <i class="fas fa-play-circle"></i></div>
+                                                           </div> </div> 
+                                                   <div class="chart1">  <div class="chartrow">
+                                                             <div class="row"><h5 class="chartname">Chart Name</h5>
+                                                           <i class="fas fa-play-circle"></i></div>
+                                                           </div> </div> 
+                                                   </div>
+    </div>
+    <div class="carousel-item">
+      <div class="flexing">
+                                                                            <div class="chart1">  <div class="chartrow">
+                                                             <div class="row"><h5 class="chartname">Chart Name</h5>
+                                                           <i class="fas fa-play-circle"></i></div>
+                                                           </div> </div> 
+                                                  <div class="chart1">  <div class="chartrow">
+                                                             <div class="row"><h5 class="chartname">Chart Name</h5>
+                                                           <i class="fas fa-play-circle"></i></div>
+                                                           </div> </div> 
+                                                  <div class="chart1">  <div class="chartrow">
+                                                             <div class="row"><h5 class="chartname">Chart Name</h5>
+                                                           <i class="fas fa-play-circle"></i></div>
+                                                           </div> </div> 
+                                        
+                                                      </div>
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+                               
+                            
+                      </div>           
                     </div>
                 </div>
             </div>
+               </div>
+                <div class="playerdiv">
+                  <div class="row">
+                    <div class="col-lg-6">
+                      <div class="topsongs">
+                        <h2 class="top">Top Songs this week</h2>
+                        <ul>
+                          <li class="row">
+                            <h5>Song name</h5>
+                            <h6>Artist Name</h6>
+                            <i class="fas fa-play-circle"></i>
+                            <i class="far fa-heart"></i>
+                          </li>
+                          <li class="row">
+                            <h5>Song name</h5>
+                            <h6>Artist Name</h6>
+                            <i class="fas fa-play-circle"></i>
+                            <i class="far fa-heart"></i>
+                          </li>
+                          <li class="row">
+                            <h5>Song name</h5>
+                            <h6>Artist Name</h6>
+                            <i class="fas fa-play-circle"></i>
+                            <i class="far fa-heart"></i>
+                          </li>
+                          <li class="row">
+                            <h5>Song name</h5>
+                            <h6>Artist Name</h6>
+                            <i class="fas fa-play-circle"></i>
+                            <i class="far fa-heart"></i>
+                          </li>
+                          <li class="row">
+                            <h5>Song name</h5>
+                            <h6>Artist Name</h6>
+                            <i class="fas fa-play-circle"></i>
+                            <i class="far fa-heart"></i>
+                          </li>
+                    
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="col-lg-5">
+                      <div class="player-container">
+                        <div class="musplayer">
+                            <div class="songimage">
+
+                            </div>
+                            <h5>Song Name</h5>
+                            <h6>Artist Name</h6>
+                            <div class="progress"></div>
+                            <div class="duration row">
+            <h6 id="current_time">0:00</h6>
+             
+            
+             <h6 id="final">2:44</h6>
+           
+          </div>
+         
+          </div>
+          <div class="music-controls row">
+                           
+                              <i class="fas fa-backward"></i>
+                              <i class="fa fa-play-circle"></i>
+                              <i class="fas fa-forward"></i>
+                           
+                        </div>
+                        </div>
+                       
+                      </div>
+                    </div>
+                  </div>
+                </div>
+        <!-- /#page-content-wrapper -->
+</div>
+ 
+   </div>    
   
 </body>
 
